@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link href="./style.css" rel="stylesheet">
+    <title>Form Validation</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-container">
+            <div class="form-heading">
+                <h1>Login Form</h1>
+            </div>
+            <form id="form">
+                <div class="form-inputs ">
+                    <label for="username">Username</label>
+                    <input type="text" placeholder="Enter Your Username" id="username">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    <small></small>
+                </div>
+                <div class="form-inputs">
+                    <label for="email">Email</label>
+                    <input type="text" placeholder="Enter Your Email" id="email">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    <small></small>
+                </div>
+                <div class="form-inputs ">
+                    <label for="password">Password</label>
+                    <input type="text" placeholder="Enter Your Password" id="password">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    <small></small>
+                </div>
+                <div class="form-inputs ">
+                    <label for="confirm_password">Confirm Password </label>
+                    <input type="text" placeholder="Confirm Your Password" id="confirmPassword">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    <small></small>
+                </div>
+                <div class="form-inputs ">
+                    <label for="message">Message</label><br>
+                    <textarea placeholder="Enter Your Message" id="message"></textarea>
+                    <i class="fa-solid fa-circle-check"></i>
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    <small></small>
+                </div>
+                <div class="form-btn">
+                    <button id="submit" type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
